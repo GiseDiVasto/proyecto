@@ -20,9 +20,10 @@ h1.Dulces__Tentaciones {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4em;
     white-space: pre-line;
-    background-color: rgb(182, 179, 219);
+    background-color: rgb(175, 213, 233);
     border: solid;
     color: aliceblue;
+
 }
 
 h2.Pasteleria__Artesanal {
@@ -32,6 +33,7 @@ h2.Pasteleria__Artesanal {
     background-color: rgb(221, 180, 209);
     border: solid;
     color: aliceblue;
+    background-image: linear-gradient(#c285df, rgba(187, 97, 187, 0.593));
 }
 
 .inicio {
@@ -45,7 +47,8 @@ h2.Pasteleria__Artesanal {
 
 .dulce {
     width: 300px;
-
+    height: 300px;
+    padding-left: 100px;
 }
 
 @media screen and (min-width: 480px) {
@@ -78,7 +81,6 @@ main {
     column-gap: 5px;
     row-gap: 5px;
     gap: 10px;
-    /* display: flex; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -101,7 +103,12 @@ main {
 .tentacion {
     width: 200px;
     height: 200px;
+    transform: translateX(-700px);
 
+}
+
+.texto__tentacion {
+    transform: translateX(-700px);
 }
 
 .lemon {
@@ -124,8 +131,6 @@ main {
     width: 200px;
     height: 200px;
 
-    /* grid-column: 1/2;
-    grid-row: 1/2;
 }
 
 div {
@@ -153,81 +158,83 @@ img {
     }
 }
 
-@media screen and (max-width: 480px) {
-
-}
+@media screen and (max-width: 480px) {}
 
 
 
 /* tercera pagina */
-    h1.Nuestros__productos {
-        text-align: center;
-        font-size: 3em;
-        background-color: bisque;
-    }
 
-    /*varios de alfajores y demas*/
-    .productos {
-        display: flex;
-    }
+h1.Nuestros__Productos {
+    text-align: center;
+    font-size: 3em;
+    background-color: bisque;
+}
 
-    .maicena {
-        width: 200px;
-    }
+/*varios de alfajores y demas*/
+.productos {
+    display: flex;
+}
 
-    .macarons {
-        width: 200px;
-        height: 300px;
-    }
+.maicena {
+    width: 200px;
+}
 
-    p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2em;
-        margin-top: 30px;
-        padding-left: 250px;
+.macarons {
+    width: 200px;
+    height: 300px;
+}
 
-    }
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 30px;
+    padding-left: 250px;
 
-    img {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: 450px;
+}
 
-    }
+img {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 450px;
+
+}
 
 
-    /*historia*/
-    .july {
-        width: 400px;
-        display: flex;
+/*historia*/
+.july {
+    width: 400px;
+    display: flex;
 
-    }
+}
 
-    .julieta {
-        width: 400px;
+.julieta {
+    width: 400px;
 
-    }
+}
 
-    nav {
-        display: flex;
+nav {
+    display: flex;
 
-    }
+}
 
-    .menu {
-        display: flex;
+.menu {
+    display: flex;
 
-    }
+}
 
-    .menu li {
-        padding: 10px;
-        margin: 20px;
-        background-color: rgb(240, 229, 137);
-        border: solid 5px;
-        color: white;
+.menu li {
+    padding: 10px;
+    margin: 20px;
+    background-color: #f4f5ea;
+    border: solid 3px;
+    color: white;
 
-    }
+}
+.menu li:hover{
+    background-color: white;
 
-    .ul {
-        list-style-type: none;
-        display: inline;
-    }
+}
+.ul {
+    list-style-type: none;
+    display: inline;
+}
