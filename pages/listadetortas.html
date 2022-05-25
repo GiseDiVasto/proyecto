@@ -9,62 +9,159 @@
     <link rel="preconect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? familia= Roboto:ital,peso@0,300;0,400;0,700;1,400 & display=swap"
         rel="hoja de estilo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styless.css">
 
 </head>
 
 <body>
+
     <header>
-
-
         <ul class="menu">
-            <li><a href="../index.html">Principal</a></li>
-            <li><a href="./listadetortas.html">Lista de tortas</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./historia.html">Historia</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+            <button type="button"><a href="./index.html" class="btn btn-outline-link">Principal</button></a>
 
-        <h1 class="lista__detortas">Lista de Tortas</h1>
+            <button type="button"> <a href="./pages/listadetortas.html" class="btn btn-outline-link">Lista de
+                    tortas</button></a>
+
+
+
+            <button type="button"> <a href="./pages/productos.html" class="btn btn-outline-link">Productos
+            </button></a>
+
+            <button type="button"> <a href="./pages/historia.html" class="btn btn-outline-link">Historia
+            </button>
+        </a>
+             <button type=" button"> <a href="./pages/contacto.html"
+                        class="btn btn-outline-link">Contacto
+                        </button></a>
+     
+        <div class="display-4 text-center"> Lista de Tortas
     </header>
-    <main>
-        <div class="tortas">
-        </div>
 
-        <div><img class="tentacion" src="../img/fernanda.png" alt="">
-            <p class="texto__tentacion"> Torta Tentación: Base de brownie,dulce de leche,mousse de chocolate,cubierta
-                con merengue italiano</p>
-        </div>
-        </div>
-        <div><img class="pupi" src="../img/torta pupi.png" alt="">
-            <p>Pupi:Masa de brownie,dulce de leche,mousse de vainilla,chocolate rayado blanco y negro</p>
-        </div>
-        <div><img class="piquitos" src="../img/tarta de piquitos.png" alt="">
-            <p>Tarta de piquitos:Masa quebrada,deulce de leche y un baño de chocolate por arriba</p>
-        </div>
-        <div> <img class="lemon" src="../img/lemon.png" alt="">
-            <p> Lemos Pie: Masa quebrada,crema de limòn y merengue italiano</p>
-        </div>
-        <div><img class="cheescake" src="../img/cheescake mixto.png" alt="">
-            <p>cheescake:Base de masa quebrada,mousse de queso,reducción de frutos rojos y maracuyá </p>
-        </div>
-        <div> <img class="rogel" src="../img/rogel.png" alt="">
-            <p>Rogel: Capas de masa hojaldrada con dulce de leche,cubierta con merengrue italiano</p>
-        </div>
-        <div><img class="delicia" src="../img/torta aby.png" alt="">
-            <p>Delicia: Base de brownie,dulde de leche,mousse de chocolate,crema chantilly y chocolate rayado blanco y
-                negro </p>
-        </div>
-        <div><img class="frutilla" src="../img/tarta de frutillas.png" alt="">
-            <p>Tarta de frutillas: Masa quebrada,crema de vainilla,frutillas</p>
-        </div>
-        </div>
+    <main class="container">
 
     </main>
+    <section class="row">
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img src="../img/fernanda.png" class="card-img-top" alt=" imagen de torta">
+                <div class="card-body">
+                    <h2>Torta Tentación</h2>
+                    <p class="card-text">Base de brownie,dulce de leche,mousse de
+                        chocolate,cubierta
+                        con merengue italiano</p>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img src="../img/torta pupi.png" class="card-img-top" alt="pupi">
+                <div class="card-body">
+                    <h2>Torta Tentación</h2>
+                    <p class="card-text">Base de brownie,dulce de leche,mousse de
+                        vainilla,con chocolate rayado blanco y negro</p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img src="../img/tarta de piquitos.png" class="card-img-top" alt="piquitos">
+                <div class="card-body">
+                    <h2>Piquitos</h2>
+                    <p class="card-text">Tarta de piquitos:Masa quebrada,deulce de leche y un baño de
+                        chocolate por
+                        arriba</p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img class="lemon" src="../img/lemon.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h2>Lemon Pie</h2>
+                    <p class="card-text"> Masa quebrada,crema de limòn y merengue italiano</p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img class="cheescake" src="../img/cheescake mixto.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h2>Cheescake</h2>
+                    <p class="card-text">Base de masa quebrada,mousse de queso,reducción
+                        de frutos rojos y
+                        maracuyá </p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img class="rogel" src="../img/rogel.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h2>Rogel</h2>
+                    <p class="card-text"> Capas de masa hojaldrada con dulce de
+                        leche,cubierta con
+                        merengrue italiano</p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img class="delicia" src="../img/torta aby.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h2>Torta Delicia</h2>
+
+                    <p class="card-text"> Base de brownie,dulde de
+                        leche,mousse de chocolate,crema
+                        chantilly y chocolate
+                        rayado
+                        blanco
+                        y
+                        negro </p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="col-md 3 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <div><img class="frutilla" src="../img/tarta de frutillas.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h2>Tarta de frutillas</h2>
+                        <p class="card-text"> Masa
+                            quebrada,crema de vainilla y
+                            frutillas</p>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+    </main>
+
     <footer>
-        <span>Dulces Tentaciones Julieta Rabade</span>
+        <span>Dulces Tentaciones Julieta
+            Rabade</span>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
