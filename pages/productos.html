@@ -9,6 +9,8 @@
     <link rel="preconect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? familia= Roboto:ital,peso@0,300;0,400;0,700;1,400 & display=swap"
         rel="hoja de estilo">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymo
     <link rel="stylesheet" href="../css/styless.css">
 
 
@@ -17,31 +19,73 @@
 <body>
     <header>
 
-        <main>
-            <ul class="menu">
-                <li><a href="../index.html">Principal</a></li>
-                <li><a href="./listadetortas.html">Lista de tortas</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-
-            </ul>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./listadetortas.html">Lista de tortas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
     </header>
-    <h1 class="Nuestros__productos"> Productos</h1>
-    <div>
-        <img class="maicena" src="/img/maicena.png" alt="">
-        <img class="macarons" src="/img/macarons cerca.png" alt="">
-    </div>
-    <div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, sint! Blanditiis cupiditate dolorum
-            doloribus, ab tenetur voluptatem consectetur ipsa fuga eum recusandae quo expedita veniam deleniti
-            consequuntur eaque soluta obcaecati.</p>
-    </div>
+    
+    <div class="display-2 text-center">Nuestros productos
+    <main class="container">
+
+    <section class="row">
+        <article class="col-md 4 col-lg-4 col-xxl-3">
+            <div class="card text-center">
+                <img class="maicena" src="../img/maicena.png" class="card-img-top" alt=" imagen de alfajor">
+                <div class="card-body">
+                    <h2>Alfajores de maicena</h2>
+                    
+                </div>
+            </div>
+
+        </article>
+        <section class="row">
+            <article class="col-md 4 col-lg-4 col-xxl-3">
+                <div class="card text-center">
+                    <img class="macarons" src="../img/macarons cerca.png" class="card-img-top" alt=" imagen de torta">
+                    <div class="card-body">
+                        <h2>macarons</h2>
+                        
+                    </div>
+                </div>
+    
+            </article>
+
+  </article>
+        <section class="row">
+            <article class="col-md 4 col-lg-4 col-xxl-3">
+                <div class="card text-center">
+                    <img class="muchaws tortas" src="../img/variastortas.png" class="card-img-top" alt=" tortas">
+                    <div class="card-body">
+                        <h2>varias tortas</h2>
+                        
+                    </div>
+                </div>
+    
+            </article>
+    
+    
     </main>
     <footer>
         <span>Dulces Tentaciones Julieta Rabade</span>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+</script>
 </body>
 
 </html>
