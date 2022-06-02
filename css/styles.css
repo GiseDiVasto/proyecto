@@ -1,0 +1,131 @@
+body {
+  background-image: url("../img/fondo2.png"); }
+
+/* pagina de inicio*/
+.Dulces__Tentaciones {
+  font-family: cursive;
+  text-align: center;
+  font-size: 3em;
+  text-decoration: underline; }
+
+.Pasteleria__Artesanal {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline; }
+
+.variastortas {
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  border: solid 3px black;
+  transform: translateX(200px); }
+
+.tentacionconmacaron {
+  width: widht 400px;
+  height: height 400 px;
+  margin-top: 100px;
+  border: solid 3px black;
+  transform: translateX(300px); }
+
+p.inicio {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2em; }
+
+/* lista de tortas */
+h1.Tortas {
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline; }
+
+.tentacion {
+  width: 300px;
+  height: 300px; }
+
+.pupi {
+  width: 300px;
+  height: 300px; }
+
+.piquitos {
+  width: 300px;
+  height: 300px; }
+
+.lemon {
+  width: 400px;
+  height: 400px; }
+
+.cheescake {
+  width: 300px;
+  height: 300px; }
+
+.rogel {
+  width: 300px;
+  height: 300px; }
+
+.delicia {
+  width: 300px;
+  height: 300px; }
+
+.frutilla {
+  width: 300px;
+  height: 300px; }
+
+/* logo */
+.dulce {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  transform: translateX(500px); }
+
+/* productos */
+h1.Productos {
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px; }
+
+.maicena {
+  width: 300px;
+  height: 400px; }
+
+.macarons {
+  width: 300px; }
+
+.nav-link {
+  color: black;
+  border: solid 2px;
+  margin-bottom: 50px; }
+
+.scones {
+  width: 350px;
+  height: 350px; }
+
+.alfajoresdechoco {
+  width: 350px;
+  height: 350px; }
+
+/* historia tercer pagina */
+.jyo {
+  width: 400px;
+  height: 400px; }
+
+.jyj {
+  width: 400px;
+  height: 400px; }
+
+/* pie de paginas */
+.icono {
+  width: 40px;
+  height: 40px; }
+
+.icono2 {
+  width: 40px;
+  height: 40px; }
+
+/* ultima pagina */
+h2.Formulario {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2em; }

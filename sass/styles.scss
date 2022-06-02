@@ -1,20 +1,27 @@
+@import  "variables";
+@import  "tipografia";
+
+
 body {
     background-image: url("../img/fondo2.png");
 }
 
 /* pagina de inicio*/
+
 .Dulces__Tentaciones {
-    font-family: cursive;
+    font-family:$titulos;
     text-align: center;
     font-size: 3em;
-    text-decoration: underline;
+    text-decoration:$subrayado;
+
 }
 
 .Pasteleria__Artesanal {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 2em;
-    text-decoration: underline;
+    text-decoration:$subrayado;
+
 }
 
 .variastortas {
@@ -25,26 +32,31 @@ body {
     transform: translateX(200px);
 }
 
+
+
 .tentacionconmacaron {
-    width: 400px;
-    height: 400px;
+    width:$ancho;
+    height:$alto;
     margin-top: 100px;
     border: solid 3px black;
-    transform: translateX(300px);
+    transform: translateX(300px)
 }
 
 p.inicio {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
+
 }
 
 /* lista de tortas */
+
 h1.Tortas {
-    font-family: cursive;
+    font-family: $titulos;
     text-align: center;
     margin-bottom: 50px;
     text-decoration: underline;
+
 }
 
 .tentacion {
@@ -65,16 +77,19 @@ h1.Tortas {
 .lemon {
     width: 400px;
     height: 400px;
+
 }
 
 .cheescake {
     width: 300px;
     height: 300px;
+
 }
 
 .rogel {
     width: 300px;
     height: 300px;
+
 }
 
 .delicia {
@@ -85,6 +100,7 @@ h1.Tortas {
 .frutilla {
     width: 300px;
     height: 300px;
+
 }
 
 /* logo */
@@ -92,12 +108,13 @@ h1.Tortas {
     width: 300px;
     height: 300px;
     margin-bottom: 10px;
-    transform: translateX(500px);
+transform: translateX(500px);
 }
 
 /* productos */
+
 h1.Productos {
-    font-family: cursive;
+    font-family:$titulos;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 50px;
@@ -129,15 +146,16 @@ h1.Productos {
 }
 
 /* historia tercer pagina */
-.jyo {
+.jyo{
     width: 400px;
-    height: 400px;
+    height:400px;
 }
 
-.jyj {
+.jyj{
     width: 400px;
-    height: 400px;
+    height:400px;
 }
+
 
 /* pie de paginas */
 .icono {
@@ -148,11 +166,12 @@ h1.Productos {
 .icono2 {
     width: 40px;
     height: 40px;
+
 }
 
 /* ultima pagina */
-h2.Formulario {
+h2.Formulario{
     text-align: center;
-    font-family: cursive;
+    font-family: $titulos;
     font-size: 2em;
 }
