@@ -1,2 +1,8 @@
-$ancho: widht 400px;
-$alto: height 400 px;
+$widht: 400px;
+$height: 400px;
+$widht2:300px;
+$height2:300px;
+
+$colors: (primary:rgb(247, 253, 217),primary-light:lighten(rgb(249, 243, 228),50%),primary-dark:darken(rgb(98, 89, 29),20%),base:white);
+
+$desktop:992px;

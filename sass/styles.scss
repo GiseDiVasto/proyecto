@@ -1,15 +1,32 @@
 @import  "variables";
 @import  "tipografia";
+@import  "mixins";
 
+@function color($color-name){
+    @return map-get($colors,$color-name);
+}
 
 body {
     background-image: url("../img/fondo2.png");
+
+.forma{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: color(primary);
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    z-index:-1;
+
+    @include desktop{
+        clip-path:polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    } 
+}
 }
 
 /* pagina de inicio*/
 
 .Dulces__Tentaciones {
-    font-family:$titulos;
+    font-family: $titulos;
     text-align: center;
     font-size: 3em;
     text-decoration:$subrayado;
@@ -35,8 +52,8 @@ body {
 
 
 .tentacionconmacaron {
-    width:$ancho;
-    height:$alto;
+    width:$widht;
+    height:$height;
     margin-top: 100px;
     border: solid 3px black;
     transform: translateX(300px)
@@ -60,53 +77,53 @@ h1.Tortas {
 }
 
 .tentacion {
-    width: 300px;
-    height: 300px;
+    width:$widht2 ;
+    height:$height2;
 }
 
 .pupi {
-    width: 300px;
-    height: 300px;
+    width:$widht2 ;
+    height:$height2;
 }
 
 .piquitos {
-    width: 300px;
-    height: 300px;
+    width:$widht2 ;
+    height:$height2 ;
 }
 
 .lemon {
-    width: 400px;
-    height: 400px;
+    width:$widht;
+    height:$height;
 
 }
 
 .cheescake {
-    width: 300px;
-    height: 300px;
+    width:$widht2;
+    height:$height2 ;
 
 }
 
 .rogel {
-    width: 300px;
-    height: 300px;
+    width:$widht2 ;
+    height:$height2;
 
 }
 
 .delicia {
-    width: 300px;
-    height: 300px;
+    width:$widht2;
+    height:$height2;
 }
 
 .frutilla {
-    width: 300px;
-    height: 300px;
+    width:$widht2;
+    height:$height2;
 
 }
 
 /* logo */
 .dulce {
-    width: 300px;
-    height: 300px;
+    width:$widht2;
+    height:$height2;
     margin-bottom: 10px;
 transform: translateX(500px);
 }
@@ -121,12 +138,12 @@ h1.Productos {
 }
 
 .maicena {
-    width: 300px;
-    height: 400px;
+    width:$widht2;
+    height:$height;
 }
 
 .macarons {
-    width: 300px;
+    width:$widht2;
 }
 
 .nav-link {
@@ -147,13 +164,13 @@ h1.Productos {
 
 /* historia tercer pagina */
 .jyo{
-    width: 400px;
-    height:400px;
+    width:$widht;
+    height:$height;
 }
 
 .jyj{
-    width: 400px;
-    height:400px;
+    width:$widht;
+    height:$height;
 }
 
 
