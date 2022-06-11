@@ -1,15 +1,5 @@
 body {
-  background-image: url("../img/fondo2.png"); }
-  body .forma {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    background-color: #f7fdd9;
-    width: 100%;
-    height: 150%;
-    position: absolute;
-    z-index: -1; }
-    @media (min-width: 992px) {
-      body .forma {
-        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); } }
+  background-color: beige; }
 
 /* pagina de inicio*/
 .Dulces__Tentaciones {
@@ -117,6 +107,11 @@ h1.Productos {
   height: 350px; }
 
 /* historia tercer pagina */
+.historia {
+  padding: 20px;
+  margin: 10px;
+  font-family: cursive; }
+
 .jyo {
   width: 400px;
   height: 400px; }
@@ -126,13 +121,18 @@ h1.Productos {
   height: 400px; }
 
 /* pie de paginas */
-.icono {
-  width: 40px;
-  height: 40px; }
+.facebook {
+  float: left; }
 
-.icono2 {
-  width: 40px;
-  height: 40px; }
+.insta2 {
+  width: 30px;
+  height: 30px;
+  display: flex; }
+
+.face2 {
+  width: 30px;
+  height: 30px;
+  display: flex; }
 
 /* ultima pagina */
 h2.Formulario {
