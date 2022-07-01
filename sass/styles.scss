@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: beige;
+  background-color:beige;
 }
 
 /* pagina de inicio*/
@@ -63,49 +63,8 @@ h1.Tortas {
 
 }
 
-.tentacion {
-    width: $widht2 ;
-    height: $height2;
-}
 
-.pupi {
-    width: $widht2 ;
-    height: $height2;
-}
 
-.piquitos {
-    width: $widht2 ;
-    height: $height2 ;
-}
-
-.lemon {
-    width: $widht;
-    height: $height;
-
-}
-
-.cheescake {
-    width: $widht2;
-    height: $height2 ;
-
-}
-
-.rogel {
-    width: $widht2 ;
-    height: $height2;
-
-}
-
-.delicia {
-    width: $widht2;
-    height: $height2;
-}
-
-.frutilla {
-    width: $widht2;
-    height: $height2;
-
-}
 
 /* logo */
 .dulce {
@@ -134,7 +93,8 @@ h1.Productos {
 }
 
 .nav-link {
-    color: black;
+    background-color:#d5aef9 ;
+    color:white;
     border: solid 2px;
     margin-bottom: 50px;
 }
@@ -152,18 +112,19 @@ h1.Productos {
 /* historia tercer pagina */
 
 .historia{
+    clear:left;
     padding: 20px;
     margin: 10px;
 font-family:$titulos;
 }
+
 .jyo {
-    width: $widht;
-    height: $height;
+float: right;
 }
 
 .jyj {
-    width: $widht;
-    height: $height;
+
+    float: left; 
 }
 
 
@@ -192,4 +153,7 @@ h2.Formulario {
     text-align: center;
     font-family: $titulos;
     font-size: 2em;
+}
+.barra{
+    min-width: 10px;
 }

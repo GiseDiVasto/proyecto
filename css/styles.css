@@ -40,38 +40,6 @@ h1.Tortas {
   margin-bottom: 50px;
   text-decoration: underline; }
 
-.tentacion {
-  width: 300px;
-  height: 300px; }
-
-.pupi {
-  width: 300px;
-  height: 300px; }
-
-.piquitos {
-  width: 300px;
-  height: 300px; }
-
-.lemon {
-  width: 400px;
-  height: 400px; }
-
-.cheescake {
-  width: 300px;
-  height: 300px; }
-
-.rogel {
-  width: 300px;
-  height: 300px; }
-
-.delicia {
-  width: 300px;
-  height: 300px; }
-
-.frutilla {
-  width: 300px;
-  height: 300px; }
-
 /* logo */
 .dulce {
   width: 300px;
@@ -94,7 +62,8 @@ h1.Productos {
   width: 300px; }
 
 .nav-link {
-  color: black;
+  background-color: #d5aef9;
+  color: white;
   border: solid 2px;
   margin-bottom: 50px; }
 
@@ -108,17 +77,16 @@ h1.Productos {
 
 /* historia tercer pagina */
 .historia {
+  clear: left;
   padding: 20px;
   margin: 10px;
   font-family: cursive; }
 
 .jyo {
-  width: 400px;
-  height: 400px; }
+  float: right; }
 
 .jyj {
-  width: 400px;
-  height: 400px; }
+  float: left; }
 
 /* pie de paginas */
 .facebook {
@@ -139,3 +107,6 @@ h2.Formulario {
   text-align: center;
   font-family: cursive;
   font-size: 2em; }
+
+.barra {
+  min-width: 10px; }
